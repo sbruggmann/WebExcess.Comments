@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<site name="example.org" state="1" siteResourcesPackageKey="Neos.Fusion" siteNodeName="example">
+		<nodes formatVersion="2.0">
+			<node identifier="c7694f44-9e02-967a-2dfa-9160a73c9be4" nodeName="example">
+				<variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:Shortcut" version="2" removed=""
+						 hidden="" hiddenInIndex="1">
+					<dimensions>
+						<language>en_US</language>
+					</dimensions>
+					<accessRoles __type="array"/>
+					<properties>
+						<name __type="string">example.org</name>
+						<state __type="string">1</state>
+						<siteResourcesPackageKey __type="string">Neos.Fusion</siteResourcesPackageKey>
+						<title __type="string">example.org</title>
+					</properties>
+				</variant>
+				<node identifier="3239baee-3e7f-785c-0853-f4302ef32570" nodeName="home">
+					<variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="2" removed=""
+							 hidden="" hiddenInIndex="">
+						<dimensions>
+							<language>en_US</language>
+						</dimensions>
+						<accessRoles __type="array"/>
+						<properties>
+							<title __type="string">&lt;h1&gt;Home&lt;/h1&gt;</title>
+							<someSpecialProperty __type="string">&lt;h1&gt;SomeValue&lt;/h1&gt;</someSpecialProperty>
+							<uriPathSegment __type="string">home</uriPathSegment>
+						</properties>
+					</variant>
+					<node identifier="3239baee-3e7f-785c-0853-f4302ef32571" nodeName="feedbacks">
+						<variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="2"
+								 removed="" hidden="" hiddenInIndex="">
+							<dimensions>
+								<language>en_US</language>
+							</dimensions>
+							<accessRoles __type="array"/>
+							<properties>
+								<title __type="string">&lt;h1&gt;Feedbacks&lt;/h1&gt;</title>
+								<uriPathSegment __type="string">Feedbacks</uriPathSegment>
+							</properties>
+						</variant>
+						<node identifier="eab73e26-0dbf-8a2f-fcd7-a3cab1821e50" nodeName="comments">
+							<variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection"
+									 version="2" removed="" hidden="" hiddenInIndex="">
+								<dimensions>
+									<language>en_US</language>
+								</dimensions>
+								<accessRoles __type="array"/>
+								<properties/>
+							</variant>
+							<node identifier="7b443d48-56f1-85a4-8f82-8d4f7342332f" nodeName="comment1">
+								<variant sortingIndex="200" workspace="live" nodeType="WebExcess.Comments:Comment"
+										 version="2" removed="" hidden="" hiddenInIndex="">
+									<dimensions>
+										<language>en_US</language>
+									</dimensions>
+									<accessRoles __type="array"/>
+									<properties>
+										<firstname __type="string">A Firstname</firstname>
+										<lastname __type="string">A Lastname</lastname>
+										<message __type="string">A Message</message>
+										<email __type="string">a.email@address.com</email>
+										<notify __type="boolean">true</notify>
+									</properties>
+								</variant>
+							</node>
+							<node identifier="7b443d48-56f1-85a4-8f82-8d4f7342333f" nodeName="comment2">
+								<variant sortingIndex="200" workspace="live" nodeType="WebExcess.Comments:Comment"
+										 version="2" removed="" hidden="" hiddenInIndex="">
+									<dimensions>
+										<language>en_US</language>
+									</dimensions>
+									<accessRoles __type="array"/>
+									<properties>
+										<firstname __type="string">Another Firstname</firstname>
+										<lastname __type="string">Another Lastname</lastname>
+										<message __type="string">Another Message</message>
+										<email __type="string">another.email@address.com</email>
+										<notify __type="boolean">true</notify>
+									</properties>
+								</variant>
+							</node>
+							<node identifier="7b443d48-56f1-85a4-8f82-8d4f7342334f" nodeName="comment3">
+								<variant sortingIndex="200" workspace="live" nodeType="WebExcess.Comments:Comment"
+										 version="2" removed="" hidden="" hiddenInIndex="">
+									<dimensions>
+										<language>en_US</language>
+									</dimensions>
+									<accessRoles __type="array"/>
+									<properties>
+										<firstname __type="string">A not interested Firstname</firstname>
+										<lastname __type="string">A not interested Lastname</lastname>
+										<message __type="string">A not interested Message</message>
+										<email __type="string">a.not.interested.email@address.com</email>
+										<notify __type="boolean">false</notify>
+									</properties>
+								</variant>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</nodes>
+	</site>
+</root>
